@@ -1,85 +1,231 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Jiali Zhang's CV</title>
-<style>
-.myDiv{
-    font-size:80%;
-}
-</style>
+    <title>Jiali Zhang's CV</title>
+
+    <style>
+        body {
+            background: rgb(248, 249, 250);
+            font-family: "Times New Roman", Times, serif;
+        }
+
+        .paper {
+            margin: auto;
+            width: 21cm;
+            height: 29.7cm;
+            background: white;
+            display: block;
+            margin-bottom: 0.5cm;
+            box-shadow: 0 0 0.1cm rgba(215, 215, 215, 0.5);
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .site-left-column {
+            margin-left: 1cm;
+            margin-right: 10px;
+            order: 2;
+            flex:3;
+        }
+
+        .site-right-column {
+            margin-top: 1.2cm;
+            margin-right: 1cm;
+            order: 2;
+            flex:1;
+        }
+
+        .site-profile_name {
+            margin-top: 1cm;
+            margin-right: 50px;
+            order: 3
+        }
+
+        .site-profile_photo {
+            margin-top: 1.5cm;
+            margin-right: 50px;
+            order: 3
+        }
+
+        h1 {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-size: 32px
+        }
+
+        h3 {
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: royalblue;
+        }
+
+        p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .site-title {
+            margin-top: 10px;
+            margin-bottom: 0px;
+            font-size: 14px;
+
+        }
+
+        .company_description {
+            margin-top: 0px;
+            margin-bottom: 10px;
+            font-size: 10px;
+
+        }
+
+        .time {
+            margin-top: 5px;
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+
+        ul {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            list-style-position: inside;
+            padding: 0;
+            font-size: 14px;
+        }
+
+        .link {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .left-column_skills{
+            margin-top: 35px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: royalblue;
+        }
+    </style>
 
 </head>
+
 <body>
+    <div class="paper">
+        <div class="container">
+            <div class="site-left-column">
+                <div class="container">
+                    <div class="site-profile_name">
+                        <h1> Jiali Zhang </h1>
+                        <p>I have lived in 3 countries of Europe for 12 years,
+                            and now I settle down in Copenhagen with my families,
+                            so I can speak German, English, Chinese and Danish.
+                            I have several years working experience in Marketing
+                            and Project Management.
+                        </p>
+                    </div>
+                    <div class="site-profile_photo">
+                        <img src="photo.jpg" alt="Jiali Zhang's photo" width="115" height="130" />
+                    </div>
+                </div>
 
-<h1> Jiali Zhang </h1>
-<img src="photo.jpg" alt="Jiali Zhang's photo" width="100" height="105" />
-<p>(+45) 50657766</p>
-<a href="https://github.com/ZHANGJialiHappy"> Github Link </a>
-<p>I have lived in 3 countries of Europe for 12 years, 
-and now I settle down in Copenhagen with my families, 
-so I can speak German, English, Chinese and Danish. 
-I have several years working experience in Marketing 
-and Project Management. 
-</p>
+                <h3> MY OWN PROJECTS </h3>
+                <p class="site-title"><b>Norsden Aps, Copenhagen</b> <i>— Co-Founder</i></p>
+                <p class="company_description"> more than an online shop and retail</p>
+                <p class="time"> August 2020 - Present </p>
 
-<h3 style="color:blue;"> <b> MY OWN PROJECTS </b></h3>
+                <p class="site-title"><b>Wechat Official Account: Living in Denmark</b></p>
+                <p class="company_description">Introduce everything in Denmark, like laws, gourmet and so on</p>
+                <p class="time">December 2016 - Present</p>
+                <ul>
+                    <li> 246 original creations, more than 10k followers in Denmark.</li>
+                    <li> Organising group-buying. In March 2020, during the coronavirus period,
+                        people can hardly buy masks all over the world including Denmark.
+                        I organised Chinese in Denmark group-bought over 80k masks. </li>
+                </ul>
 
-<p>Norsden Aps, Copenhagen — Co-Founder</p>
-<div class="myDiv"> more than an online shop and retail</div>
-<p> August 2020 - Present </p>
+                <h3> WORKING EXPERIENCE </h3>
 
-<p>Wechat Official Account: Living in Denmark</p>
-<div class="myDiv">Introduce everything in Denmark, like laws, gourmet and so on</div>
-<p>December 2016 - Present</p>
-<ul>
-    <li> 246 original creations, more than 10k followers in Denmark.</li>
-    <li> <pre>Organising group-buying. In March 2020, during the coronavirus period, 
-people can hardly buy masks all over the world including Denmark. 
-I organised Chinese in Denmark group-bought over 80k masks. <pre></li>
-  </ul>
+                <p class="site-title"><b>China Cultural Center, Copenhagen </b> <i>— Project Manager</i></p>
+                <p class="time">August 2018 - July 2020</p>
+                <ul>
+                    <li> Made research for the tourist market in Denmark with data and analysis (using PowerBI).</li>
+                    <li> Planned and organised 19 projects in the past 2 years.
+                        You can find news about my projects by https://zhangjialihappy.github.io/profile/#Projects
+                    </li>
+                </ul>
+                <p class="site-title"><b>Forecast Aps, Copenhagen</b> <i>— Tester Manager & Global Market Analyst</i></p>
+                <p class="company_description">Project Management Software Company (IT company)</p>
+                <p class="time">August 2016 - May 2017 (June 2017- July 2018 maternity leave)</p>
+                <ul>
+                    <li>Wrote test plans and tested software.</li>
+                    <li>Helped developers and UX designers better understand their product.</li>
+                    <li>Made marketing research (got to know SQL).</li>
+                    <li>Launched and maintained E-commerce on social media in China, and opened Chinese market.
+                        Forecast was recommended by “Zhihu”(Chinese Quora) as the top 6 popular project management
+                        software
+                        in
+                        China,
+                        and 200 Chinese users registered Forecast software in 1 month.</li>
+                </ul>
+                <p class="site-title"><b>SUPCON Group, China</b> <i>— Business Developer & Digital Marketing Operator</i>
+                </p>
+                <p class="company_description">Automation and Information Technology Company</p>
+                <p class="time">July 2013 - June 2015</p>
 
-<h3 style="color:blue;"> WORKING EXPERIENCE </h3>
+                <p class="site-title"><b>RWTH Aachen, Forschungszentrum Jülich, Germany</b> <i>— Research Assistant</i>
+                </p>
+                <p class="time">July 2012 - July 2013</p>
+            </div>
 
-<p>China Cultural Center, Copenhagen — Project Manager</p>
-<p>August 2018 - July 2020</p>
-<ul>
-    <li> Made research for the tourist market in Denmark with data and analysis (using PowerBI).</li>
-    <li>  Planned and organised 19 projects in the past 2 years. 
-        You can find news about my projects by https://zhangjialihappy.github.io/profile/#Projects
-    </li>
-</ul>
+            <div class="site-right-column">
+                <p><b>Richard Mortensens <br> 2300, Copenhagen </b></p>
+                <p><b>(+45) 50657766</b></p>
+                <div class="link">
+                    <a href="https://github.com/ZHANGJialiHappy" target="_blank"> <b>Github Link </b></a>
+                </div>
+                <div class="link">
+                    <a href="https://zhangjialihappy.github.io/profile/#Experience" target="_blank">
+                        <b style="margin-bottom:10px;">Website</b>
+                    </a>
+                </div>
 
-<p>Forecast Aps, Copenhagen — Tester Manager & Global Market Analyst</p>
-<div class="myDiv">Project Management Software Company (IT company)</div>
-<p>August 2016 - May 2017 (June 2017- July 2018 maternity leave)</p>
-<ul>
-    <li>Wrote test plans and tested software.</li>
-    <li>Helped developers and UX designers better understand their product.</li>
-    <li>Made marketing research (got to know SQL).</li>
-    <li>Launched and maintained E-commerce on social media in China, and opened Chinese market. 
-        Forecast was recommended by “Zhihu”(Chinese Quora) as the top 6 popular project management software in China, 
-        and 200 Chinese users registered Forecast software in 1 month.</li>
-</ul>
-<p>SUPCON Group, China— Business Developer & Digital Marketing Operator</p>
-<div class="myDiv">Automation and Information Technology Company</div>
-<p>July 2013 - June 2015</p>
+                <h3 class="left-column_skills">SKILLS</h3>
 
-<p>RWTH Aachen, Forschungszentrum Jülich, Germany— Research Assistant
-<p>July 2012 - July 2013</p>
+                <p>SQL, SQL Server</p>
+                <p>html</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>Agile, Scrum</p>
 
-<h3 style="color:blue;"> EDUCATION </h3>
+                <h3>CERTIFICATION</h3>
 
-<p> Toulouse Business School, Paris, France — Master</p>
-<div class="myDiv">November 2015 - December 2016</div>
-<p>Marketing and Communication</p>
+                <p>Master SQL for Data Science</p>
+                <p>Learning Python</p>
+                <p>Scrum: Advanced</p>
 
-<p> Aachen University of Applied Sciences, Germany </p>
-<div class="myDiv">November 2009 - February 2013</div>
-<p>Electric Engineering</p>
+                <h3> EDUCATION </h3>
 
-<h3 style="color:blue;"> LANGUAGES </h3>
+                <p class="site-title"><b> Toulouse Business School, Paris, France</b> <i>— Master</i></p>
+                <p class="time">November 2015 - December 2016</p>
+                <p>Marketing and Communication</p>
 
-<p>Chinese (Native speaker), English (fluent and certificated), German (certificated), Danish (certificated)</p>
+                <p class="site-title"> <b>Aachen University of Applied Sciences, Germany</b></p>
+                <p class="time">November 2009 - February 2013</p>
+                <p>Electric Engineering</p>
 
+                <h3> LANGUAGES </h3>
+
+                <p>Chinese (Native speaker),</p>
+                <p>English (fluent and certificated),</p>
+                <p>Danish (PD3 certificated,</p>
+                <p>German (certificated)</p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
