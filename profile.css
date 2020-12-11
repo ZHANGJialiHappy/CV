@@ -1,16 +1,17 @@
 body {
     background: rgb(248, 249, 250);
     font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
 }
 
 .paper {
     margin: auto;
-    width: 21cm;
-    height: 29.7cm;
+    width: 793.7px;
+    height: 1122.5px;
     background: white;
     display: block;
-    margin-bottom: 0.5cm;
-    box-shadow: 0 0 0.1cm rgba(215, 215, 215, 0.5);
+    margin-bottom: 18.9px;
+    box-shadow: 0 0 3.78px rgba(215, 215, 215, 0.5);
 }
 
 .container {
@@ -18,27 +19,27 @@ body {
 }
 
 .site-left-column {
-    margin-left: 1cm;
+    margin-left: 37.8px;
     margin-right: 10px;
     order: 2;
     flex:3;
 }
 
 .site-right-column {
-    margin-top: 1.2cm;
-    margin-right: 1cm;
+    margin-top: 45.4px;
+    margin-right: 37.8px;
     order: 2;
     flex:1;
 }
 
 .site-profile_name {
-    margin-top: 1cm;
+    margin-top: 37.8px;
     margin-right: 50px;
     order: 3
 }
 
 .site-profile_photo {
-    margin-top: 1.5cm;
+    margin-top: 56.7px;
     margin-right: 50px;
     order: 3
 }
@@ -59,14 +60,11 @@ h3 {
 p {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 14px;
 }
 
 .site-title {
     margin-top: 10px;
     margin-bottom: 0px;
-    font-size: 14px;
-
 }
 
 .company_description {
@@ -87,13 +85,11 @@ ul {
     margin-bottom: 10px;
     list-style-position: inside;
     padding: 0;
-    font-size: 14px;
 }
 
 .link {
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 14px;
 }
 
 .left-column_skills{
